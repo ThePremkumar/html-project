@@ -17,3 +17,33 @@ th, td, caption {
     border-collapse: separate;
     padding: 0.5rem;
 }
+
+@media (max-width: 600px) {
+    html {
+      font-size: 18px; /* Decrease font size */
+    }
+
+    body {
+      max-width: 90%; 
+      margin: 0; 
+      padding: 1rem 0.5rem; 
+      border-left: none; 
+      border-right: none;
+    }
+
+    th, td, caption {
+      font-size: 14px; 
+      padding: 0.3rem; 
+    }
+}
+
+
+  @media (max-width: 400px) {
+    html {
+      font-size: 16px; 
+    }
+
+    th, td, caption {
+      font-size: 12px; 
+    }
+}
